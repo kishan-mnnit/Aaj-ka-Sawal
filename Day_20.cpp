@@ -1,3 +1,7 @@
+//question 1 
+// question link :- https://leetcode.com/problems/count-primes
+
+// Solution::: 
 
 int countPrimes(int n) {
         vector<bool> countPrime(n+5,true);
@@ -13,3 +17,6 @@ int countPrimes(int n) {
         }
        return count;
   }
+
+
+// quetion 2::
