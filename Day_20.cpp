@@ -4,7 +4,7 @@
 // Solution::: 
 
 int countPrimes(int n) {
-        vector<bool> countPrime(n+5,true);
+        vector<bool> countPrime(n+1,true);
         int i,count=0;
         countPrime[0]=countPrime[1]=false;
         for(i=2;i<n;++i){
@@ -17,6 +17,3 @@ int countPrimes(int n) {
         }
        return count;
   }
-
-
-// quetion 2::
